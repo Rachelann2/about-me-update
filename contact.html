@@ -39,17 +39,6 @@
 
     </ul>
     </div>
-    <div class="containerIMG" class="container-fluid">
-
-        <img id="intro" src="laptop-shot.jpeg" style="height: 100vh; width: 100%;" alt="laptop-img">
-
-        <div class="centered btn-large disabled black">Hello, Welcome!</div>
-        <div class="col hide-on-small-only m3 12">
-            <div class="section table-of-content">
-                <div class="centered1 btn teal lighten-4">About Me</div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="container responsive">
@@ -59,16 +48,28 @@
         <div class="col s12 m7">
             <div id="introduction" class="section scrollSpy">
                 <div class="card horizontal">
-                    <div class="card-image circle">
-                        <img src="me.jpeg" class="responsive-img">
-                    </div>
+
                     <div class="card-stacked">
                         <div class="card-content">
-                            <h2 class="header">About Me</h2>
-                            <p>My name is Rachel Silverthorn Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Ullam
-                                numquam, cumque sunt ipsam aspernatur odit quam accusantium, placeat necessitatibus nisi
-                                nemo at odio architecto esse? Alias, dolorem quis. Magnam, ducimus?</p>
+                            <h2 class="header">Contact Me</h2>
+                            <form>
+                                <div class="input-field">
+                                    <input type="text" id="name">
+
+                                    <label class="active" for="name"> First & Last Name </label>
+
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" id="email" class="validate">
+                                    <label class="active" for="email">Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea type="email" id="text-area" class="materialize-textarea"></textarea>
+                                    <label class="active" for="text-area">Message Here</label>
+                                </div>
+                                <button onclick="sendMail(); return false"> <a
+                                        class="waves-effect waves-light btn teal lighten-4">Submit</a></button>
+                            </form>
                         </div>
 
                     </div>
@@ -114,8 +115,10 @@
 
 
 
-    </script>
 
+
+    </script>
+    <script src="app.js"></script>
 </body>
 
 </html>

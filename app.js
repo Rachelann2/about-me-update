@@ -1,9 +1,13 @@
-body {
-    display: flex;
-    min - height: 100vh;
-    flex - direction: column;
-}
+$(document).ready(function () {
+    $('.scrollspy').scrollSpy();
+});
 
-main {
-    flex: 1 0 auto;
+function sendMail() {
+    var link = "mailto: rachelannies2@hotmail.com"
+        + "?cc=myCCaddress@example.com"
+        + "&subject=" + escape("This is my subject")
+        + "&body=" + escape(document.getElementById('myText').value)
+        ;
+
+    window.location.href = link;
 }

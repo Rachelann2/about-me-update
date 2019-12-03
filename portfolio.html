@@ -10,7 +10,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="float.css">
 
 
 </head>
@@ -39,42 +39,60 @@
 
     </ul>
     </div>
-    <div class="containerIMG" class="container-fluid">
 
-        <img id="intro" src="laptop-shot.jpeg" style="height: 100vh; width: 100%;" alt="laptop-img">
-
-        <div class="centered btn-large disabled black">Hello, Welcome!</div>
-        <div class="col hide-on-small-only m3 12">
-            <div class="section table-of-content">
-                <div class="centered1 btn teal lighten-4">About Me</div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="container responsive">
         <br>
-        <br>
+
 
         <div class="col s12 m7">
-            <div id="introduction" class="section scrollSpy">
-                <div class="card horizontal">
-                    <div class="card-image circle">
-                        <img src="me.jpeg" class="responsive-img">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <h2 class="header">About Me</h2>
-                            <p>My name is Rachel Silverthorn Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Ullam
-                                numquam, cumque sunt ipsam aspernatur odit quam accusantium, placeat necessitatibus nisi
-                                nemo at odio architecto esse? Alias, dolorem quis. Magnam, ducimus?</p>
+
+            <div class="card horizontal">
+
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h2 class="header2">Portfolio</h2>
+                        <div class="wrap">
+
+                            <div class="img-box">
+                                <a href="https://rachelann2.github.io/Train-time/"><img class="img-box__img"
+                                        src="./images/Train-time.png" alt="first"> </a>
+                                <p class="banner">Train Scheduler</p>
+                            </div>
+
+                            <div class="img-box2">
+                                <a href="https://rachelann2.github.io/TriviaGame/"><img class="img-box__img2"
+                                        src="./images/Trivia-game.png" alt="first"></a>
+                                <p class="banner2">Trivia Game</p>
+
+                            </div>
                         </div>
 
+                        <div class="wrap2">
+                            <div class="img-box3">
+                                <a href="https://rachelann2.github.io/project-1/"><img class="img-box__img3"
+                                        src="./images/project-1.png" alt="first"></a>
+                                <p class="banner3">Project 1</p>
+                            </div>
+
+                            <div class="img-box4">
+                                <a href="#"><img class="img-box__img4" src="./images/pink-floral.jpg" alt="first"></a>
+                                <p class="banner4">City Living</p>
+                            </div>
+                        </div>
+
+                        <div class="img-box5">
+                            <a href="#"><img class="img-box__img5" src="./images/vintage.jpg" alt="first"></a>
+                            <p class="banner5">Adventures</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
+    </div>
+    </div>
 
     </div>
 
@@ -111,7 +129,11 @@
             $('.sidenav').sidenav();
         });
 
+        var instance = M.ScrollSpy.getInstance(elem);
 
+        $(document).ready(function () {
+            $('.scrollspy').scrollSpy();
+        });
 
 
     </script>

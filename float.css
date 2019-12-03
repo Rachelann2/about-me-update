@@ -1,0 +1,29 @@
+.wrap {
+    width: 350px;
+    height: 162px;
+}
+
+.img-box {
+    width: 150px;
+    float: left;
+}
+
+.img-box2 {
+    width: 150px;
+    float: right;
+}
+
+.wrap2 {
+  width: 350px;
+  height: 162px;
+}
+
+.img-box3 {
+  width: 150px;
+  float: left;
+}
+
+.img-box4 {
+  width: 150px;
+  float: right;
+}
