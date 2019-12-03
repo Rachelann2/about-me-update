@@ -182,3 +182,10 @@ footer {
     padding: 10px;
     
   }
+
+  @media only screen and (max-width: 600px) {
+   .centered1 {
+      font-size: 25px;
+      overflow: hidden;
+    }
+  }
