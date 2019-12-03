@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Old Standard TT', serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    font-family: 'Old Standard TT', serif;
+}
+
+
+footer {
+    font-family: 'Old Standard TT', serif;
+
+}
+.sidenav {
+    font-family: 'Old Standard TT', serif;
+}
+
