@@ -11,3 +11,18 @@ function sendMail() {
 
     window.location.href = link;
 }
+
+$(document).ready(function () {
+    //Scroll Navigator
+
+    $('#aboutbtn').click(function () {
+
+        $('html, body').animate({
+
+            scrollTop: $($(this).attr('href')).offset().top
+
+        }, 1200);
+
+        $('.navbar-collapse').collapse('hide');
+    })
+});

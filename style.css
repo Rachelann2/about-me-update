@@ -101,6 +101,8 @@ footer {
     bottom: 10px;
     color: white;
   }
+
+
   
   .img-box3 {
     width: 150px;
@@ -181,6 +183,10 @@ footer {
     height: 200px;
     padding: 10px;
     
+  }
+
+  #about {
+      color: Black;
   }
 
   @media only screen and (max-width: 600px) {
